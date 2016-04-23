@@ -1,0 +1,16 @@
+{
+    "name": "assouan/orm",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "autoload": {
+        "files": [ "inc/orm.php" ],
+        "classmap": [
+            "src/ORM.php",
+            "src/ORMSkeleton.php",
+            "src/ORMEntity.php",
+            "src/ORMException.php"
+        ]
+    }
+}
